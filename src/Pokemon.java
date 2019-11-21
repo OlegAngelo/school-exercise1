@@ -54,9 +54,3 @@ public class Pokemon {
         System.out.println("Pokemon Type 2: " + pokeTypeTwo);
     }
 }
-
-//pokeName
-//hitPoints
-//combatPower
-//PokeTypeOne
-//PokeTypeTwo

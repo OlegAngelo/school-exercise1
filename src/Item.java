@@ -53,9 +53,3 @@ public class Item {
         System.out.println("Item Count: You have " + itemCount + " '" + itemName + "' in your bag.");
     }
 }
-
-//itemName
-//itemAmount
-//itemPurpose
-//itemCount
-//itemDescription

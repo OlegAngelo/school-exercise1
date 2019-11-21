@@ -53,9 +53,3 @@ public class Character {
         System.out.println("Buddy Pokemon: " + buddyPokemon);
     }
 }
-
-//team
-//gender
-//buddyPokemon
-//characterLevel
-//characterOutfit
