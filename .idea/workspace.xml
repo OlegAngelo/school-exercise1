@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b4ca6d-4dcb-4ecd-9331-3f9ae08e2529" name="Default Changelist" comment="" />
+    <list default="true" id="f8b4ca6d-4dcb-4ecd-9331-3f9ae08e2529" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/Pokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/PokemonGo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PokemonGoClassesAndObjects/PokemonGo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokemonGo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonGo.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +26,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1TuLz4gdm8uySWHhpB8UWdfwdfB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -63,5 +79,16 @@
       <updated>1574305292562</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
