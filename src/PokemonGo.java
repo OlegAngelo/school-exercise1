@@ -3,15 +3,9 @@ public class PokemonGo {
 
     public static void main(String args[]) {
         /* Character */
-        Character myCharacter = new Character();
+        Character myCharacter = new Character("Kat", "female", 40, "Mystic", "Pikachu");
+        System.out.println(myCharacter);
 
-        myCharacter.setCharacterName("Kat");
-        myCharacter.setCharacterLevel(40);
-        myCharacter.setTeam("Mystic");
-        myCharacter.setGender("Male");
-        myCharacter.setBuddyPokemon("Pikachu");
-
-        myCharacter.printCharacter();
 
         System.out.println("--------------------------------------------");
         /* Pokemon */

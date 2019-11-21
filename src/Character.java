@@ -1,4 +1,4 @@
-public class Character {
+class Character {
     private String characterName;
     private int characterLevel;
     private String team;
@@ -45,11 +45,20 @@ public class Character {
         this.buddyPokemon = buddyPokemon;
     }
 
-    public void printCharacter(){
-        System.out.println("Trainer Name: Trainer " + characterName);
-        System.out.println("Character Level: " + characterLevel);
-        System.out.println("Team: " + team);
-        System.out.println("Gender: " + gender);
-        System.out.println("Buddy Pokemon: " + buddyPokemon);
+
+    public Character(String characterName, String gender, int characterLevel, String team, String buddyPokemon){
+        this.characterName = characterName;
+        this.gender = gender;
+        this.characterLevel = characterLevel;
+        this.team = team;
+        this.buddyPokemon = buddyPokemon;
     }
-}
+
+    public String toString() {
+        return "Trainer " + characterName + ", an aspiring " + gender + " trainer. Your character level is " + characterLevel +
+                " under Team " + team + "'s overwhelming power. Trainer " + characterName +
+                " always brings buddy " + buddyPokemon + " whenever they travel.";
+
+    }
+};
+
