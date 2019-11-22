@@ -1,14 +1,18 @@
-
 public class PokemonGo {
-
     public static void main(String args[]) {
 
-        /* Character -- overriding toString and using object to print out results(constructors) */
-        Character myCharacter = new Character("Kat", "female", 40, "Mystic", "Pikachu");
+        /* Character -- overriding toString format for long concatenations and using object to print out results */
+        Character myCharacter = new Character();
+
+        myCharacter.setCharacterName("Kat");
+        myCharacter.setCharacterLevel(40);
+        myCharacter.setTeam("Mystic");
+        myCharacter.setGender("female");
+        myCharacter.setBuddyPokemon("Pikachu");
 
         System.out.println(myCharacter);
 
-        System.out.println("--------------------------------------------");
+        System.out.println("----------------------------------------------------");
 
         /* Pokemon -- setter and getter but has separate way of printing result (get method not used) */
         Pokemon myPokemon = new Pokemon();
@@ -42,7 +46,5 @@ public class PokemonGo {
         System.out.println("Amount: © " + myItem.itemAmount);
         System.out.println("Description: " + myItem.itemDescription + ". The purpose for this potion is " + myItem.itemPurpose);
         System.out.println("Item Count: You have x" + myItem.itemCount + " '" + myItem.itemName + "' in your bag.");
-
     }
-
 }
