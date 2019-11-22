@@ -1,9 +1,10 @@
 public class Item {
-    private String itemName;
-    private int itemAmount;
-    private String itemDescription;
-    private String itemPurpose;
-    private int itemCount;
+
+    public String itemName;
+    public int itemAmount;
+    public String itemDescription;
+    public String itemPurpose;
+    public int itemCount;
 
     public String getItemName() {
         return itemName;
@@ -45,11 +46,4 @@ public class Item {
         this.itemCount = itemCount;
     }
 
-    public void printItem(){
-        System.out.println("Item Name: " + itemName);
-        System.out.println("Amount: © " + itemAmount);
-        System.out.println("Description: " + itemDescription + ". The purpose for this potion is " + itemPurpose);
-        //System.out.println("Purpose: " + itemPurpose);
-        System.out.println("Item Count: You have x" + itemCount + " '" + itemName + "' in your bag.");
-    }
 }

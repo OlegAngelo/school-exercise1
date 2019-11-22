@@ -1,9 +1,11 @@
-class Character {
+public class Character {
+
     private String characterName;
     private int characterLevel;
     private String team;
     private String gender;
     private String buddyPokemon;
+/*
 
     public String getCharacterName() {
         return characterName;
@@ -44,7 +46,7 @@ class Character {
     public void setBuddyPokemon(String buddyPokemon) {
         this.buddyPokemon = buddyPokemon;
     }
-
+*/
 
     public Character(String characterName, String gender, int characterLevel, String team, String buddyPokemon){
         this.characterName = characterName;
