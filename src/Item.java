@@ -50,6 +50,6 @@ public class Item {
         System.out.println("Amount: © " + itemAmount);
         System.out.println("Description: " + itemDescription + ". The purpose for this potion is " + itemPurpose);
         //System.out.println("Purpose: " + itemPurpose);
-        System.out.println("Item Count: You have " + itemCount + " '" + itemName + "' in your bag.");
+        System.out.println("Item Count: You have x" + itemCount + " '" + itemName + "' in your bag.");
     }
 }
