@@ -1,5 +1,4 @@
 public class Pokemon {
-
     private String pokeName;
     private int hitPoints;
     private int combatPower;

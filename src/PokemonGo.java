@@ -1,7 +1,6 @@
 public class PokemonGo {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
-        /* Character -- overriding toString format for long concatenations and using object to print out results */
         Character myCharacter = new Character();
 
         myCharacter.setCharacterName("Kat");
@@ -14,7 +13,6 @@ public class PokemonGo {
 
         System.out.println("----------------------------------------------------");
 
-        /* Pokemon -- setter and getter but has separate way of printing result (get method not used) */
         Pokemon myPokemon = new Pokemon();
 
         myPokemon.setPokeName("Mewtwo");
@@ -25,9 +23,8 @@ public class PokemonGo {
 
         myPokemon.printPokemon();
 
-        System.out.println("--------------------------------------------");
+        System.out.println("---------------------------------------------------");
 
-        /* Item -- uses mainly setters and getters for printing results(more reusable -- separation of concerns) */
         Item myItem = new Item();
 
         myItem.setItemName("Basic Potion");

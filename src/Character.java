@@ -1,5 +1,4 @@
 public class Character {
-
     private String characterName;
     private int characterLevel;
     private String team;
@@ -54,6 +53,8 @@ public class Character {
 
         return String.format(format, characterName, characterLevel, team, gender, buddyPokemon);
     }
+}
+
 
 
     /*
@@ -78,5 +79,5 @@ public class Character {
     }
 
    */
-}
+
 
